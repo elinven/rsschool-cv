@@ -38,7 +38,7 @@ function factorial(n)
 }
 ```
 ## Work experience
-_Dozens of projects for the implementation of ERP systems_
+_Dozens of projects for the implementation of ERP systems._
 ## Education
 _I have a higher education._
 - I graduated from the Faculty of Applied Mathematics and Computer Science of the BSU in 1991.
