@@ -1,0 +1,38 @@
+.cvblock {
+  width: 800px;
+  background: rgb(228, 246, 247);
+  padding: 10px;
+  border: solid 2px red;
+  margin: auto;
+}
+.cvheader {
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(55, 4, 104);
+}
+.alena {
+  text-align: center;
+  color: rgb(55, 4, 104);
+}
+.info {
+  font-family: sans-serif;
+  font: italic 18px;
+  color: rgb(158, 48, 123);
+}
+.about-me {
+  font-family: sans-serif;
+  font: italic 18px;
+}
+.myself {
+  text-align: center;
+}
+.skills {
+  color: green;
+}
+.cvdetails {
+  font: italic;
+  color: rgb(69, 105, 224);
+}
+.cvfooter {
+  text-align: center;
+}
