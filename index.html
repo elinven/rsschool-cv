@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alena Dubrouskaya CV</title>
+    <title>Curriculum Vitae</title>
+    <link href="./assets/icons/favicon.ico" rel="shortcut icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="container header-container">
         <nav class="nav">
@@ -25,6 +26,11 @@
             <li class="nav-item"><a href="#other" class="nav-link">Other</a></li>
           </ul>
         </nav>
+        <div class="hamburger">
+          <div class="burger-line line1"></div>
+          <div class="burger-line line2"></div>
+          <div class="burger-line line3"></div>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -40,6 +46,9 @@
           <h2 class="section-title">Contacts</h2>
           <ul class="section-list">
             <li class="section-item contacts-item">
+              Location: <a href="https://goo.gl/maps/bADAo65EqjqpbY926" title="location" target="_blank">Brest, Belarus</a>
+            </li>
+            <li class="section-item contacts-item">
               Email: <a href="mailto:ivenhea@gmail.com" title="email">ivenhea@gmail.com</a>
             </li>
             <li class="section-item contacts-item">
@@ -49,7 +58,10 @@
               Facebook: <a href="https://www.facebook.com/alena.dubrouskaja" title="facebook">alena.dubrouskaja</a>
             </li>
             <li class="section-item contacts-item">
-              Phone: 375298687505
+              Discord: <a href="https://discord.gg/PRADsJB" title="discord" target="_blank">elinven#9366</a>
+            </li>
+            <li class="section-item contacts-item">
+              Phone: <a href="tel:+375298687505" title="phone">+375 29 868 75 05</a>
             </li>
           </ul>
         </section>
@@ -59,7 +71,7 @@
           </p>
           <p>My goals:</p>
           <ol>
-            <li>Finish my studies in RS School in Javascript by the end of summer 2022.</li>
+            <li>Finish my studies in RS School in Javascript by the end of autumn 2022.</li>
             <li>Learn English to B1 level.</li>
           </ol>
         </section>
@@ -87,7 +99,7 @@
           <h2 class="section-title">Courses</h2>
           <ul class="section-list">
             <li class="section-item">
-              RSSchool<span> - JavaScript/Front-end. Stage 0</span>
+              RSSchool<a href="https://rs.school/js-stage0/"> - JavaScript/Front-end. Stage 0</a>
             </li>
           </ul>
         </section>
@@ -109,15 +121,31 @@
         </section>
         <section class="section section-education" id="education">
           <h2 class="section-title">Education</h2>
-          <p>The Faculty of Applied Mathematics and Computer Science of Belarusian State University</p>
-          <p>The Faculty of Management of Academy of Public Administration in Minsk</p>
+          <ul class="section-list">
+            <li class="section-item">
+              The Faculty of Applied Mathematics and Computer Science of Belarusian State University
+            </li>
+            <li class="section-item">
+              The Faculty of Management of Academy of Public Administration in Minsk
+            </li>
+          </ul>
         </section>
         <section class="section section-languages" id="languages">
           <h2 class="section-title">Languages</h2>
-          <p>Belarusian Native</p>
-          <p>English A2 - Elementary</p>
-          <p>Polish B1 - Intermediate</p>
-          <p>Russian C2 - Proficiency</p>
+          <ul class="section-list">
+            <li class="section-item">
+              Belarusian<span> Native</span>
+            </li>
+            <li class="section-item">
+              English A2<span> - Elementary</span>
+            </li>
+            <li class="section-item">
+              Polish B1<span> - Intermediate</span>
+            </li>
+            <li class="section-item">
+              Russian C2<span> - Proficiency</span>
+            </li>
+          </ul>
         </section>
         <section class="section section-other" id="other">
           <h2 class="section-title">Other</h2>
@@ -130,9 +158,10 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <div>© 2022 <a href="https://github.com/elinven" class="github nav-link">My GitHub</a></div>
+        <div>© 2022 <a href="https://github.com/elinven" class="github nav-link">elinven</a></div>
         <a href="https://rs.school/js/" class="rsschool"></a>
       </div>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>
