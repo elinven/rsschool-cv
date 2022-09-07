@@ -316,8 +316,8 @@ body {
   .hamburger {
     display: flex;
   }
-  
-  .nav {  
+
+  .nav {
     position: fixed;
     width: 320px;
     min-height: 100vh;
